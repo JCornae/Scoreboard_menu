@@ -1,0 +1,74 @@
+<!-- ห้ามนำไปปล่อยหรือขายต่อ
+ถ้าพบเจอ ไม่ซับพอร์ตนาจา BY.SETUP SHOP -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="SETUP.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <title>SETUP</title>
+</head>
+
+<body id="body">
+    <audio id="sound-effect">
+        <source src="waterdrop.mp3" type="audio/mpeg">
+    </audio>
+    <div class="container">
+        <div class="main">
+            <div class="img"></div>
+            <div class="line"></div>
+            <div class="menu">
+                <div class="pic">
+                    <div class="disimg"></div>
+                    <div class="id" id="iduser">1000</div>
+                </div>
+                <div class="info">
+                    <div class="top">
+                        <div class="box"><i class="fa-solid fa-address-card"></i><span id="my_fullname">BABY GAGA</span></div>
+                        <div class="box"><i class="fa-solid fa-briefcase"></i><span id="my_job">ผู้อำนวยการทหาร</span></div>
+                        <div class="box"><i class="fa-solid fa-square-phone"></i><span id="my_phonenumber">46865</span></div>
+                    </div>
+                    <div class="bottom">
+                        <div class="cir">
+                            <div class="job on"></div>
+                            <p>ONLINE</p>
+                            <p1 id="players">5</p1>
+                        </div>
+                        <div class="cir">
+                            <div class="job pol"></div>
+                            <p>POLICE</p>
+                            <p1 id="police">5</p1>
+                        </div>
+                        <div class="cir">
+                            <div class="job doc"></div>
+                            <p>MEDIC</p>
+                            <p1 id="ems">5</p1>
+                        </div>
+                        <div class="cir">
+                            <div class="job mec"></div>
+                            <p>MECHANIC</p>
+                            <p1 id="mc">5</p1>
+                        </div>
+                        <div class="cir">
+                            <div class="job chef"></div>
+                            <p>CHEF</p>
+                            <p1 id="chef">5</p1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="SETUP.js"></script>
+</body>
+
+</html>
